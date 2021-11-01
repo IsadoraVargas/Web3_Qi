@@ -1,0 +1,54 @@
+//projeto loja de varejo
+
+public class Vendedor{
+    String endereco;
+    int celular;
+    String email;
+    String nome;
+    int cpf;
+    Date dataDeNascimento;
+    double salario;  
+ }
+ 
+  public class Cliente{
+    String endereco;
+    int celular;
+    String email;
+    String nome;
+    Date dataDeNascimento;
+    int cpf;
+ 
+ }
+ 
+ public class Fornecedor{
+    String endereco;
+    int celular;
+    String email;
+    String nome;
+    int cnpj;
+    String tipoDeProduto;
+    double precoDaEntrega;
+ }
+ 
+  public class Produto{
+    String nome;
+    int lote;
+    Date dataDeFabricacao;
+    Date dataDeValidade;
+    double preco;  
+ }
+ 
+  public class Venda{
+    String vendedor;
+    String produto;
+    String cliente;
+    Date dataDaVenda;
+    double precoDaVenda;  
+ }
+ 
+  public class Estoque{
+    String produto;
+    int quantidadeMinima;
+    int quantidadeMaxima;
+    String lote;
+ }
